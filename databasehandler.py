@@ -19,10 +19,16 @@ if not os.path.isfile("configuration.json"):
             25073877,
             822215679726100480
         ],
+        "intervals": {
+            "fullpass": 600,
+            "account": 1200,
+            "pass": 5
+        },
         "notifications": {
             "email": "email@example.com"
         }
     }
+    
     with open("configuration.json", "w") as configuration_file:
         json.dump(default_configuration, configuration_file, indent=4, sort_keys=True)
         ok("Configuration file created!", detail="The file is located at " + os.path.abspath("configuration.json"))
