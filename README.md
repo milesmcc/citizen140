@@ -22,7 +22,7 @@ Archive those tweets, and get a notification whenever one is deleted.
 ## Other Notes
 This is a work in progress, and while it is stable and suitable for use, it should not be considered bulletproof (nor should any program for that matter).
 
-## Liscense
+## License
 Licensed under the MIT license.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
